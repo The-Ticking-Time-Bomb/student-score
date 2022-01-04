@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context=".TeacherActivity"
+        android:background="@color/LoginBackgroud"
+        >
+    
+    <Toolbar
+            android:id="@+id/title_name_teacher"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="@color/colorAccent"
+            android:title="@string/teacher"
+            tools:targetApi="lollipop">
+        <TextView
+                android:id="@+id/teacher_back"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="270dp"
+                android:textSize="20dp"
+                />
+    </Toolbar>
+    
+    <ListView
+            android:id="@+id/LV"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/title_name_teacher"
+            />
+    
+    <Button
+            android:id="@+id/btn_search"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_below="@id/title_name_teacher"
+            android:layout_marginTop="500dp"
+            android:layout_marginLeft="320dp"
+            android:textSize="18dp"
+            android:background="@mipmap/search"
+            />
+    
+</RelativeLayout>

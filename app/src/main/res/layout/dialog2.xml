@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+    
+    <RelativeLayout
+            android:layout_marginTop="7dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+        
+        <TextView
+                android:id="@+id/xingming"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="9dp"
+                android:text="姓名:"
+                android:textSize="18dp"/>
+        
+        <EditText
+                android:id="@+id/name123"
+                android:textSize="18dp"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@id/xingming"/>
+        
+        <TextView
+                android:id="@+id/xuehao2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="学号:"
+                android:textSize="18dp"
+                android:layout_below="@id/xingming"
+                android:layout_marginTop="20dp"/>
+        
+        <TextView
+                android:id="@+id/xuehao123"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@id/xuehao2"
+                android:layout_below="@id/name123"
+                android:textSize="18dp"
+                android:layout_marginTop="2dp"
+                android:layout_marginLeft="2dp"/>
+        
+        <TextView
+                android:id="@+id/age2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="年龄:"
+                android:textSize="18dp"
+                android:layout_toRightOf="@id/name123"
+                android:layout_marginTop="9dp"
+                android:layout_marginRight="10dp"/>
+        
+        <EditText
+                android:id="@+id/age123"
+                android:textSize="18dp"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@id/age2"/>
+        
+        <TextView
+                android:id="@+id/phone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="电话:"
+                android:layout_below="@id/age2"
+                android:textSize="18dp"
+                android:layout_toRightOf="@id/xuehao123"
+                android:layout_marginTop="21dp"/>
+        
+        <EditText
+                android:id="@+id/dianhua123"
+                android:textSize="18dp"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@id/phone"
+                android:layout_below="@id/age123"
+                />
+        
+        <TextView
+                android:id="@+id/class_Name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="班级:"
+                android:textSize="18dp"
+                android:layout_below="@id/xuehao2"
+                android:layout_alignLeft="@id/xuehao2"
+                android:layout_marginTop="21dp"
+                />
+        
+        <EditText
+                android:id="@+id/className123"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@id/class_Name"
+                android:layout_below="@id/xuehao123"
+                android:layout_marginTop="10dp"/>
+        
+        <TextView
+                android:id="@+id/password"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="密码:"
+                android:textSize="18dp"
+                android:layout_toRightOf="@id/className123"
+                android:layout_below="@id/phone"
+                android:layout_alignTop="@id/class_Name"
+                />
+        
+        <EditText
+                android:id="@+id/key"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@id/password"
+                android:layout_below="@id/dianhua123"
+                android:textSize="18dp"/>
+        
+        <TextView
+                android:id="@+id/address"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="地址:"
+                android:textSize="18dp"
+                android:layout_below="@id/class_Name"
+                android:layout_marginTop="20dp"/>
+        
+        <EditText
+                android:id="@+id/dizhi123"
+                android:textSize="18dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@id/address"
+                android:layout_below="@id/className123"/>
+    
+    
+    </RelativeLayout>
+</RelativeLayout>

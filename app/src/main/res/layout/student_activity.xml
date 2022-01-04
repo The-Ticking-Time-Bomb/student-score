@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".StudentActivity"
+        android:background="@color/LoginBackgroud">
+    
+    <Toolbar
+            android:id="@+id/title_name_student"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="@color/colorAccent"
+            android:title="@string/student"
+            tools:targetApi="lollipop">
+        
+        <TextView
+                android:id="@+id/Student_back"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/back"
+                android:layout_marginLeft="250dp"
+                />
+    </Toolbar>
+    
+    
+    <RelativeLayout
+            android:layout_marginTop="60dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+        
+        <TextView
+                android:id="@+id/student_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="40dp"
+                android:layout_marginTop="70dp"
+                android:layout_marginBottom="5dp"
+                android:text="@string/name"
+                android:textSize="20dp"/>
+        
+        <TextView
+                android:id="@+id/student_className"
+                android:text="@string/className"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/student_name"
+                android:layout_alignLeft="@id/student_name"
+                android:textSize="20dp"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="15dp"/>
+        
+        <TextView
+                android:id="@+id/student_age"
+                android:text="@string/age"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/student_className"
+                android:layout_alignLeft="@id/student_className"
+                android:textSize="20dp"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="15dp"/>
+        
+        <TextView
+                android:id="@+id/student_phone"
+                android:text="@string/phone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/student_age"
+                android:layout_alignLeft="@id/student_age"
+                android:textSize="20dp"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="15dp"/>
+        
+        <TextView
+                android:id="@+id/student_address"
+                android:text="@string/address"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/student_phone"
+                android:textSize="20dp"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="10dp"
+                android:layout_alignLeft="@id/student_phone"/>
+        
+        <TextView
+                android:id="@+id/name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@id/student_name"
+                android:layout_alignTop="@id/student_name"
+                android:layout_marginLeft="10dp"
+                android:textSize="20dp"
+                android:layout_marginBottom="5dp"
+                />
+        
+        <TextView
+                android:id="@+id/className"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@id/student_className"
+                android:layout_alignTop="@id/student_className"
+                android:layout_marginLeft="10dp"
+                android:textSize="20dp"
+                android:layout_marginBottom="5dp"
+                />
+        
+        <TextView
+                android:id="@+id/age"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@id/student_age"
+                android:layout_alignTop="@id/student_age"
+                android:layout_marginLeft="10dp"
+                android:textSize="20dp"
+                android:layout_marginBottom="5dp"
+                />
+        
+        <TextView
+                android:id="@+id/phone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@id/student_phone"
+                android:layout_alignTop="@id/student_phone"
+                android:layout_marginLeft="10dp"
+                android:textSize="20dp"
+                android:layout_marginBottom="5dp"
+                />
+        
+        <TextView
+                android:id="@+id/address"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@id/student_address"
+                android:layout_alignTop="@id/student_address"
+                android:layout_marginLeft="10dp"
+                android:layout_marginBottom="5dp"
+                android:textSize="20dp"
+                />
+    </RelativeLayout>
+    
+    <TextView
+            android:id="@+id/name_math"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="22dp"
+            android:text="数学"
+            android:layout_marginTop="400dp"
+            android:layout_marginLeft="40dp"
+            />
+    
+    <TextView
+            android:id="@+id/math1234"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/name_math"
+            android:layout_alignLeft="@id/name_math"
+            android:textSize="22dp"
+            android:layout_marginTop="20dp"/>
+    
+    <TextView
+            android:id="@+id/name_andriod"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="22dp"
+            android:text="安卓"
+            android:layout_toRightOf="@id/name_math"
+            android:layout_alignTop="@id/name_math"
+            android:layout_marginLeft="30dp"/>
+    
+    <TextView
+            android:id="@+id/andriod1234"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="22dp"
+            android:layout_below="@id/name_andriod"
+            android:layout_alignLeft="@id/name_andriod"
+            android:layout_marginTop="20dp"/>
+    
+    <TextView
+            android:id="@+id/name_yingyu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="22dp"
+            android:text="英语"
+            android:layout_toRightOf="@id/name_andriod"
+            android:layout_alignTop="@id/name_andriod"
+            android:layout_marginLeft="30dp"/>
+    
+    <TextView
+            android:id="@+id/yingyu1234"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="22dp"
+            android:layout_below="@id/name_yingyu"
+            android:layout_alignLeft="@id/name_yingyu"
+            android:layout_marginTop="20dp"/>
+    
+    <TextView
+            android:id="@+id/name_allscore"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="22dp"
+            android:text="总分"
+            android:layout_toRightOf="@id/name_yingyu"
+            android:layout_alignTop="@id/name_yingyu"
+            android:layout_marginLeft="50dp"/>
+    
+    <TextView
+            android:id="@+id/allsore1234"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="22dp"
+            android:layout_below="@id/name_allscore"
+            android:layout_alignLeft="@id/name_allscore"
+            android:layout_marginTop="20dp"/>
+    
+    <Button
+            android:id="@+id/change_inform"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/allsore1234"
+            android:layout_marginTop="50dp"
+            android:layout_marginLeft="100dp"
+            android:textSize="18dp"
+            android:text="修改信息"
+            />
+    
+    <Button
+            android:id="@+id/check_class"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18dp"
+            android:layout_below="@id/allsore1234"
+            android:layout_toRightOf="@id/change_inform"
+            android:layout_alignTop="@id/change_inform"
+            android:layout_marginLeft="20dp"
+            android:text="查看班级"/>
+
+</RelativeLayout>

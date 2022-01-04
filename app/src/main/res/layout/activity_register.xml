@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".registerActivity"
+        android:background="@color/colorAccent"
+        android:orientation="horizontal">
+    
+    
+    <TextView
+            android:layout_marginTop="60dp"
+            android:id="@+id/reg_number1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:text="姓名:"
+            android:textColor="#000"
+            android:textSize="20dp"
+            />
+    
+    <EditText
+            android:layout_alignBottom="@+id/reg_number1"
+            android:layout_toRightOf="@+id/reg_number1"
+            android:id="@+id/reg_username"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:hint="学生填写姓名，老师填写数字"/>
+    
+    <TextView
+            android:id="@+id/reg_number2"
+            android:layout_marginTop="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/reg_number1"
+            android:padding="10dp"
+            android:text="密码:"
+            android:textColor="#000"
+            android:textSize="20dp"/>
+    
+    <EditText
+            android:layout_alignBottom="@id/reg_number2"
+            android:layout_toRightOf="@+id/reg_number2"
+            android:id="@+id/reg_password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:hint="必填"
+            />
+    
+    <TextView
+            android:id="@+id/reg_number3"
+            android:layout_marginTop="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/reg_number2"
+            android:padding="10dp"
+            android:text="班级:"
+            android:textColor="#000"
+            android:textSize="20dp"/>
+    
+    <EditText
+            android:layout_alignBottom="@id/reg_number3"
+            android:layout_toRightOf="@+id/reg_number3"
+            android:id="@+id/reg_className"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:hint="学生必填"/>
+    
+    <TextView
+            android:id="@+id/reg_number4"
+            android:layout_marginTop="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/reg_number3"
+            android:padding="10dp"
+            android:text="学号:"
+            android:textColor="#000"
+            android:textSize="20dp"/>
+    
+    <EditText
+            android:layout_alignBottom="@id/reg_number4"
+            android:layout_toRightOf="@+id/reg_number4"
+            android:id="@+id/reg_xid"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:hint="学生必填"/>
+    
+    <TextView
+            android:id="@+id/reg_number5"
+            android:layout_marginTop="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/reg_number4"
+            android:padding="10dp"
+            android:text="身份:"
+            android:textColor="#000"
+            android:textSize="20dp"/>
+    
+    
+    <EditText
+            android:layout_alignBottom="@id/reg_number5"
+            android:layout_toRightOf="@+id/reg_number5"
+            android:id="@+id/reg_shenfen"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:hint="学生:1"
+            android:textColorHint="@color/gray"
+            />
+    
+    <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="确定注册"
+            android:background="#74e674"
+            android:id="@+id/reg_btn_sure"
+            android:layout_marginTop="38dp"
+            android:layout_below="@+id/reg_shenfen"
+            android:layout_marginLeft="50dp"
+            android:onClick="infor_reg"/>
+    
+    <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="返回登录"
+            android:background="#f27758"
+            android:id="@+id/reg_btn_login"
+            android:layout_alignBottom="@id/reg_btn_sure"
+            android:layout_toRightOf="@id/reg_btn_sure"
+            android:layout_marginLeft="60dp"
+            android:onClick="register"
+            />
+    
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="账号注册"
+            android:textSize="30dp"
+            android:layout_marginTop="5dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            />
+
+
+</RelativeLayout>

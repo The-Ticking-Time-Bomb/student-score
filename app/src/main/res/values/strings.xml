@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">学生成绩信息</string>
+    <string name="account">username:</string>
+    <string name="Login_account_hind">学号</string>
+    <string name="password">password:</string>
+    <string name="Login_password_hind">密码</string>
+    <string name="student">学生端</string>
+    <string name="name">姓名:</string>
+    <string name="className">班级:</string>
+    <string name="age">年龄:</string>
+    <string name="phone">电话:</string>
+    <string name="address">住址:</string>
+    <string name="teacher">老师端</string>
+    <string name="back">退出登录</string>
+    <string name="check_core">查看成绩</string>
+    <string name="change_infor">修改信息</string>
+    <string name="xuehao">学号</string>
+    <string name="shuxu">数学:</string>
+</resources>
